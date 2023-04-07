@@ -1,0 +1,8 @@
+[2023-03-15 16:37:57] - INFO: 成功导入BERT配置文件 F:\Github\BertWithPretrained\bert_base_chinese\config.json
+[2023-03-15 16:38:50] - INFO: 成功导入BERT配置文件 F:\Github\BertWithPretrained\bert_base_chinese\config.json
+[2023-03-15 16:41:31] - INFO: 成功导入BERT配置文件 F:\Github\BertWithPretrained\bert_base_chinese\config.json
+[2023-03-15 16:56:23] - INFO: 成功导入BERT配置文件 F:\Github\BertWithPretrained\bert_base_chinese\config.json
+[2023-03-15 17:05:39] - INFO: 成功导入BERT配置文件 F:\Github\BertWithPretrained\bert_base_uncased_english\config.json
+[2023-03-15 17:05:40] - INFO: ## 注意，正在使用本地MyTransformer中的MyMultiHeadAttention实现，如需使用torch框架中的MultiHeadAttention模块可通过config.__dict__['use_torch_multi_head'] = True实现
+[2023-03-15 19:32:44] - INFO: 成功导入BERT配置文件 F:\Github\BertWithPretrained\bert_base_uncased_english\config.json
+[2023-03-15 19:32:45] - INFO: ## 注意，正在使用本地MyTransformer中的MyMultiHeadAttention实现，如需使用torch框架中的MultiHeadAttention模块可通过config.__dict__['use_torch_multi_head'] = True实现
