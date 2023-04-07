@@ -21,7 +21,7 @@ import logging
 class ModelConfig:
     def __init__(self):
         self.project_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-        self.pretrained_model_dir = os.path.join(self.project_dir, "bert_base_chinese")
+        self.pretrained_model_dir = os.path.join(self.project_dir, "bert_base_uncased_english")
         self.vocab_path = os.path.join(self.pretrained_model_dir, 'vocab.txt')
         self.logs_save_dir = os.path.join(self.project_dir, 'logs')
         logger_init(log_file_name='CLS', log_level=logging.INFO,
@@ -35,6 +35,7 @@ class ModelConfig:
 
 if __name__ == '__main__':
     config = ModelConfig()
+    print(config.project_dir)
     bert_tokenize = BertTokenizer.from_pretrained(config.pretrained_model_dir)
     bert = BertModel.from_pretrained(config, config.pretrained_model_dir)
     sentences = ["各位朋友大家好。", "欢迎来到月来客栈。", "欢迎来到月来客栈。"]
